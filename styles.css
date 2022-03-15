@@ -12,6 +12,10 @@ background: linear-gradient(
   rgba(4, 0, 255) 100%
  );
 }
+.ghost {
+    position: absolute;
+    padding: 1rem;
+}
 .board {
     display: grid;
     width: 100%;
