@@ -4,8 +4,8 @@
     padding: 0;
 }
 body{
-    height: 100vh;
-    width: 100vw;
+   height: 100vh;
+width: 100vw;
 background: linear-gradient(
    90deg,
   rgba(185, 69, 65) 0%,
@@ -43,7 +43,7 @@ background: linear-gradient(
     justify-content: center;
     align-items: center;
     position: relative;
-}
+} 
 .cell.X, .cell.circle{
     cursor: not-allowed;
 }
@@ -96,7 +96,7 @@ border-right: none;
     background: white;
     position: absolute;
     border-radius: 50%;
-}
+} 
 .winning-messege {
     display: none;
     position: fixed;
