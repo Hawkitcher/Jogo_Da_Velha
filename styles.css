@@ -14,7 +14,7 @@ background: linear-gradient(
 }
 .ghost {
     position: absolute;
-    padding: 1rem;
+    padding:rem;
 }
 .board {
     display: grid;
