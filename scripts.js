@@ -32,12 +32,13 @@ const startGame = () => {
 // verificando Empate ou vitória
 const endGame = (isDraw) => {
 if (isDraw) {
-     winningMessegeTextElement.innerText = 'Empate Marmota!'
+    alert("Empate Marmota!")
 }
 else{
     winningMessegeTextElement.innerText = isCircleTurne ? 
-    'Círculo Venceu' :
-     'X Venceu';
+    alert("Bolinha Venceu Marmota!") :
+     alert("Xzinho Venceu Marmota!");
+     winningMessegeTextElement.innerText = 'Igor defende Automação no PodNerd!';
 }
 winningMessege.classList.add("show-winning-messege");
 }
