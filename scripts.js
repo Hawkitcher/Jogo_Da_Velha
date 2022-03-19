@@ -34,13 +34,19 @@ const endGame = (isDraw) => {
 if (isDraw) {
      winningMessegeTextElement.innerText = 'Empate Marmota!'
 }
+else{
+    winningMessegeTextElement.innerText = isCircleTurne ? 
+    'Círculo Venceu' :
+     'X Venceu';
+}
+winningMessege.classList.add("show-winning-messege");
 }
 const checkForWin = (currentPlayer) => {
     return winningCombinations.some((combination) => {
 return combination.every((index) => {
 return cellElements [index].classList.contains(currentPlayer);
 }); 
- });
+    });
 };
 const checkForDraw = () => {
     return [...cellElements].every(cell => {
