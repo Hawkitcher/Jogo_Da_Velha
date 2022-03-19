@@ -4,17 +4,13 @@
     padding: 0;
 }
 body{
-   height: 100vh;
+   height: 90vh;
 width: 100vw;
 background: linear-gradient(
    90deg,
   rgba(185, 69, 65) 0%,
   rgba(4, 0, 255) 100%
  );
-}
-.ghost {
-    position: absolute;
-    padding:rem;
 }
 .board {
     display: grid;
@@ -110,9 +106,17 @@ border-right: none;
     flex-direction: column;
 }
 .winning-messege-button {
-    font-size: 2.5rem;
-    background-color: black ;
-    padding: 10px 15px;
+    display: flex;
+    position: fixed;
+    top: 5;
+    left: 5;
+    right: 0;
+    bottom: 5;
+    justify-content: center;
+    align-items:center;
+    font-size: 1.5rem;
+    background-color: rgb(241, 0, 0) ;
+    padding: 5px 10px;
     cursor: pointer;
     border-radius: 5px;
     border: none;

@@ -3,7 +3,7 @@ const cellElements = document.querySelectorAll("[date-cell]");
 const board = document.querySelector("[date-board]")
 const winningMessegeTextElement = document.querySelector("[date-winning-messege-text");
 const winningMessege = document.querySelector("[date-winning-messege]");
-const RestarButton = document.querySelector("[date-winning-messege-button]")
+const RestarButton = document.querySelector("[date-winning-messege-button]");
 // Verificar se é a vez do círculo
 let isCircleTurne;
 // condição para vencer
@@ -32,21 +32,15 @@ const startGame = () => {
 // verificando Empate ou vitória
 const endGame = (isDraw) => {
 if (isDraw) {
-    winningMessegeTextElement.innerText = 'Empate Marmota!'
+     winningMessegeTextElement.innerText = 'Empate Marmota!'
 }
-else{
-    winningMessegeTextElement.innerText = isCircleTurne ? 
-    'Círculo Venceu' :
-     'X Venceu';
-}
-winningMessege.classList.add("show-winning-messege");
 }
 const checkForWin = (currentPlayer) => {
     return winningCombinations.some((combination) => {
 return combination.every((index) => {
 return cellElements [index].classList.contains(currentPlayer);
 }); 
-    });
+ });
 };
 const checkForDraw = () => {
     return [...cellElements].every(cell => {
