@@ -38,7 +38,7 @@ else{
     winningMessegeTextElement.innerText = isCircleTurne ? 
     alert("Bolinha Venceu Marmota!") :
      alert("Xzinho Venceu Marmota!");
-     winningMessegeTextElement.innerText = 'Igor defende Automação no PodNerd!';
+     winningMessegeTextElement.innerText = 'Jogue novamente!';
 }
 winningMessege.classList.add("show-winning-messege");
 }
