@@ -1,6 +1,6 @@
 // variaveis
 const cellElements = document.querySelectorAll("[date-cell]");
-const board = document.querySelector("[date-board]")
+const board = document.querySelector("[date-board]");
 const winningMessegeTextElement = document.querySelector("[date-winning-messege-text");
 const winningMessege = document.querySelector("[date-winning-messege]");
 const RestarButton = document.querySelector("[date-winning-messege-button]");
