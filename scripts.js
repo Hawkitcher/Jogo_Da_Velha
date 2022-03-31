@@ -1,9 +1,9 @@
 // variaveis
-const cellElements = document.querySelectorAll("[data-cell]");
-const board = document.querySelector("[data-board]");
-const winningMessegeTextElement = document.querySelector("[data-winning-messege-text");
-const winningMessege = document.querySelector("[data-winning-messege]");
-const RestarButton = document.querySelector("[data-winning-messege-button]");
+const cellElements = document.querySelectorAll("[date-cell]");
+const board = document.querySelector("[date-board]");
+const winningMessegeTextElement = document.querySelector("[date-winning-messege-text");
+const winningMessege = document.querySelector("[date-winning-messege]");
+const RestarButton = document.querySelector("[date-winning-messege-button]");
 // Verificar se é a vez do círculo
 let isCircleTurne;
 // condição para vencer
